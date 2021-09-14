@@ -1,30 +1,20 @@
-
-<!doctype html>
+<!Doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.83.1">
+    <meta name="description" content="">    
     <title>Career Bootcamp</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/headers/">
 
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./css/main.css" rel="stylesheet">
-
-    <!-- Favicons -->
-<link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-<link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
-<link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
-<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
-<meta name="theme-color" content="#7952b3">
-
-
+    
+    <!-- Icons in What we do-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom styles for this template -->
+    <link href="headers.css" rel="stylesheet">
+    <!-- <meta name="theme-color" content="#7952b3"> -->
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -39,11 +29,7 @@
           font-size: 3.5rem;
         }
       }
-    </style>
-
-    
-    <!-- Custom styles for this template -->
-    <link href="headers.css" rel="stylesheet">
+    </style>        
   </head>
   <body>
     
@@ -61,17 +47,19 @@
 </svg>
 
 <main>
+  <!-- CONTAINER -->
   <div class="container">
+
+<!-- HEADER -->    
     <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-      <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+      <a href="#" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
         <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
         <span class="fs-4">Career Bootcamp</span>
       </a>
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="#" class="nav-link px-2 link-secondary">About</a></li>
         <li><a href="#" class="nav-link px-2 link-dark">Get Involved</a></li>        
-        <li><a href="#" class="nav-link px-2 link-dark">FAQs</a></li>        
+        <li><a href="#faq" class="nav-link px-2 link-dark item underline js-scroll-item">FAQs</a></li>        
       </ul>
 
       <div class="col-md-3 text-end">
@@ -79,7 +67,9 @@
         <button type="button" class="btn btn-primary">Sign-up</button>
       </div>
     </header>
+<!-- /HEADER -->    
 
+<!-- IMG -->
     <div class="container col-xxl-8 px-4 py-5">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
@@ -88,8 +78,8 @@
         <div class="col-lg-6">
           <h1 class="display-5 fw-bold lh-1 mb-3">Community that unites women engineers</h1>
           <p class="lead">
-            <h5>Join our 10-week intensive program that gives you the tools you need to get the job you want.</h5>
-          Become a part of our welcoming and safe community where you can join smaller community group chats to learn Algorithms and Data Structures and solve problems together.</p>
+            <h5>Join our <span class="colored_text">FREE 10-week intensive program</span> that gives you the tools you need to get the job you want.</h5>
+          Become a part of our welcoming, safe and supportive community where you can join smaller group chats to learn Algorithms and Data Structures and solve problems together.</p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
             <input type="search" class="form-control input_lg" placeholder="Your email..." aria-label="Search">
             <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Subscribe</button>
@@ -99,22 +89,13 @@
         </div>
       </div>
     </div>
-    <!--
-    <div class="p-5 mb-4 bg-light rounded-3 main-img">
-      <div class="container-fluid py-5">
-        <h1 class="display-5 fw-bold">Want to get the updates?</h1>
-        <p class="col-md-6 fs-4">Here you can leave your email and we will let you know once we will be ready to start.</p>
-        <form class="col-md-3" >
-          <input type="search" class="form-control input_lg" placeholder="Your email..." aria-label="Search"><button class="btn btn-primary btn-lg" type="button">Get Notified</button>
-        </form>  
-      </div>
-    </div>
-  -->
+<!-- /IMG -->
 
+<!-- EVENTS -->
     <div class="table-responsive container col-xxl-8 px-4 py-5">
       <!--<h1 class="display-5 fw-bold lh-1 mb-3">Events</h1>-->
       <h2 class="display-6">Upcoming Events</h2>
-      <p>Become a member to see more details.</p>
+      <p>Become a member to see more details</p>
       <table class="table text-center">
         <thead>
           <tr>
@@ -126,113 +107,179 @@
         </thead>
         <tbody>
           <tr>
-            <th scope="row" class="text-start">Aug, 10th<br><span class="time">6:00PM &ndash; 7:30PM (PDT)</span></th>
+            <th scope="row" class="text-start">Oct, 1<br /><span class="suppl_text">6:00PM &ndash; 7:30PM (PDT)</span></th>
             <td>Linked Lists</td>
             <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td class="text-small">Online</td>
+            <td class="text-small">Add to Calendar</td>
           </tr>
           <tr>
-            <th scope="row" class="text-start">Aug, 17th<br><span class="time">6:00PM &ndash; 7:30PM (PDT)</span></th>
+            <th scope="row" class="text-start">Oct, 7th<br /><span class="suppl_text">6:00PM &ndash; 7:30PM (PDT)</span></th>
             <td>Stack & Queue</td>
             <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td class="text-small">Online</td>
+            <td class="text-small">Add to Calendar</td>
           </tr>
-        </tbody>
-
-        <tbody>
           <tr>
-            <th scope="row" class="text-start">Aug, 23rd<br><span class="time">6:00PM &ndash; 7:30PM (PDT)</span></th>
+            <th scope="row" class="text-start">Oct, 23rd<br /><span class="suppl_text">6:00PM &ndash; 7:30PM (PDT)</span></th>
             <td>Recursion</td>
             <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td class="text-small">Online</td>
+            <td class="text-small">Add to Calendar</td>
           </tr>
           <tr>
-            <th scope="row" class="text-start">Aug, 31st<br><span class="time">6:00PM &ndash; 7:30PM (PDT)</span></th>
+            <th scope="row" class="text-start">Oct, 31st<br /><span class="suppl_text">6:00PM &ndash; 7:30PM (PDT)</span></th>
             <td>Heaps</td>
             <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td class="text-small">Online</td>
+            <td class="text-small">Add to Calendar</td>
           </tr>
         </tbody>
       </table>
+      <a href="#" class="link-more">More>></a>
     </div>
+<!-- /EVENTS -->
+ 
+<!-- TESTIMONIALS -->
+  <div class="table-responsive container py-5">
+    <div class="auto-invert line-b-4 align-center">
+        <h1 class="font-cond-b fg-text-d lts-md fs-300 fs-300-xs no-mg" contenteditable="false"><span class="colored_text">132 women</span> have joined our community</h1>        
+        <h5 class="font-cond-l fg-accent lts-md" contenteditable="false">Reviews from people who credit our program</h5>               
+    </div>
+    <ul class="hash-list cols-3 cols-1-xs pad-30-all align-center text-sm">
+        <li>
+          <img src="img/avatar.png" class="wpx img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+          <p class="fs-110 font-cond-l" contenteditable="false">"Career Bootcamp provides a nice, structured way to prepare for interviews while having a full-time job. Mock interviews helped me get better and the problem sets alleviated the need for me to source problems externally."</p>
+          <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Kira Carter</h5>
+          <span class="suppl_text font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Recording Artist at Pixar</span>          
+        </li>      
+        <li>
+          <img src="img/avatar.png" class="wpx img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+          <p class="fs-110 font-cond-l" contenteditable="false">"Career Bootcamp is like a fitness coach which guides to achieve your dream job. It can help you identify your weak points and also suggest steps to improve them."</p>
+          <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Kira Carter</h5>
+          <small class="suppl_text font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Amazon</small>
+        </li>
+        <li>
+          <img src="img/avatar.png" class="wpx img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+          <p class="fs-110 font-cond-l" contenteditable="false">"I can't think of a better recipe for tech interview success than combining the Bootcamp program with hard work. The program made my prep much more effective and eliminated surprises from the interview process."</p>
+          <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Samantha Lowes</h5>
+          <small class="suppl_text font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Netflix</small>
+        </li>
+    </ul>
+  </div>
+<!-- /TESTIMONIALS -->
 
+</div> 
+<!-- /CONTAINER -->
+  
+<!-- WHAT WE DO -->
+<section class="section features" id="faq">
+<div class="container">
+  <div class="padb-30 auto-invert line-b-4 align-center">
+    <h1 class="font-cond-b fg-text-d lts-md fs-300 fs-300-xs no-mg" contenteditable="false">Is this Bootcamp for you?</h1>        
+    <h5 class="font-cond-l fg-accent lts-md" contenteditable="false">The program is beginner friendly</h5>               
+  </div>
+</div>
+  <div class="features-boxed">   
+    <div class="container">
+    <div class="row justify-content-center features">
+      <div class="col-sm-6 col-md-5 col-lg-4 item">
+        <div class="box"><i class="fa fa-map-marker icon"></i>
+          <h3 class="name">Who we are</h3>
+          <p class="description">We are a community of woman who wants to change a career path or jump into a new field by preparing themselves for technical interview. We are learning together and improve through feedback.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-5 col-lg-4 item">
+        <div class="box"><i class="fa fa-angle-double-right icon"></i>
+          <h3 class="name">What will you learn?</h3>
+          <p class="description">We will start by ... and why ... is a must. We will then start working on some basic leetcode problems, we will move on to more advanced techniques to solve problems, will look for patterns, etc. At the end of the bootcamp, you will solve more then 100 leetcode problems, will know how to use github, and enough experience to start intervieving.</p>
+        </div>
+      </div>       
+      <div class="col-sm-6 col-md-5 col-lg-4 item">
+        <div class="box"><i class="fa fa-clock-o icon"></i>
+          <h3 class="name">What are the prerequisites?</h3>
+          <p class="description">All you need are Python basics like variables, arrays, loops and functions. We will learn the rest together.</p>
+        </div>
+      </div>     
+      <div class="col-sm-6 col-md-5 col-lg-4 item">
+        <div class="box"><i class="fa fa-list-alt icon"></i>
+          <h3 class="name">Our Goals</h3>
+          <p class="description">We work with volunteers and companies to give you a support in coding challenges. By practicing with us you will be able to recognize patterns in interview problems. We will help with networking with hundreds of women in Tech Industry.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-5 col-lg-4 item">
+        <div class="box"><i class="fa fa-envelope icon"></i>
+          <h3 class="name">What if I need help?</h3>
+          <p class="description">If you get stuck or you don't understand a specific part of a lesson, you can share your problem to get help.</p>
+        </div>
+      </div> 
+      <div class="col-sm-6 col-md-5 col-lg-4 item">
+        <div class="box"><i class="fa fa-clock-o icon"></i>
+          <h3 class="name">What are the prerequisites?</h3>
+          <p class="description">All you need are Python basics like variables, arrays, loops and functions. We will learn the rest together.</p>
+        </div>
+      </div>           
+    </div>
+  </div>
 
-  <div class="px-4 py-5 my-5 text-center">
-    <!--<img class="d-block mx-auto mb-4" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">-->
+</section>
+<!-- /WHAT WE DO -->
+
+<!-- CONTAINER -->
+<div class="container">
+<!-- JOIN US -->
+  <div class="px-4 py-5 my-5 text-center container">    
     <h1 class="display-5 fw-bold">Join Us</h1>
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">Share experience and push the field forward</p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <!--<button type="button" class="btn btn-primary btn-lg px-4 gap-3">Slack</button>
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Github</button>-->
-        <a href="https://bootstrap-slack.herokuapp.com/" target="_blank" rel="noopener">
-            <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" class="navbar-nav-svg d-inline-block align-text-top" viewBox="0 0 512 512" role="img"><title>Slack</title><path fill="currentColor" d="M210.787 234.832l68.31-22.883 22.1 65.977-68.309 22.882z"/><path fill="currentColor" d="M490.54 185.6C437.7 9.59 361.6-31.34 185.6 21.46S-31.3 150.4 21.46 326.4 150.4 543.3 326.4 490.54 543.34 361.6 490.54 185.6zM401.7 299.8l-33.15 11.05 11.46 34.38c4.5 13.92-2.87 29.06-16.78 33.56-2.87.82-6.14 1.64-9 1.23a27.32 27.32 0 0 1-24.56-18l-11.46-34.38-68.36 22.92 11.46 34.38c4.5 13.92-2.87 29.06-16.78 33.56-2.87.82-6.14 1.64-9 1.23a27.32 27.32 0 0 1-24.56-18l-11.46-34.43-33.15 11.05c-2.87.82-6.14 1.64-9 1.23a27.32 27.32 0 0 1-24.56-18c-4.5-13.92 2.87-29.06 16.78-33.56l33.12-11.03-22.1-65.9-33.15 11.05c-2.87.82-6.14 1.64-9 1.23a27.32 27.32 0 0 1-24.56-18c-4.48-13.93 2.89-29.07 16.81-33.58l33.15-11.05-11.46-34.38c-4.5-13.92 2.87-29.06 16.78-33.56s29.06 2.87 33.56 16.78l11.46 34.38 68.36-22.92-11.46-34.38c-4.5-13.92 2.87-29.06 16.78-33.56s29.06 2.87 33.56 16.78l11.47 34.42 33.15-11.05c13.92-4.5 29.06 2.87 33.56 16.78s-2.87 29.06-16.78 33.56L329.7 194.6l22.1 65.9 33.15-11.05c13.92-4.5 29.06 2.87 33.56 16.78s-2.88 29.07-16.81 33.57z"/></svg>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">        
+        <a href="https://app.slack.com/client/T01HG7G8221/C01HG7G88N9" target="_blank" rel="noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" class="navbar-nav-svg d-inline-block align-text-top" viewBox="0 0 512 512" role="img"><title>Slack</title><path fill="currentColor" d="M210.787 234.832l68.31-22.883 22.1 65.977-68.309 22.882z"/><path fill="currentColor" d="M490.54 185.6C437.7 9.59 361.6-31.34 185.6 21.46S-31.3 150.4 21.46 326.4 150.4 543.3 326.4 490.54 543.34 361.6 490.54 185.6zM401.7 299.8l-33.15 11.05 11.46 34.38c4.5 13.92-2.87 29.06-16.78 33.56-2.87.82-6.14 1.64-9 1.23a27.32 27.32 0 0 1-24.56-18l-11.46-34.38-68.36 22.92 11.46 34.38c4.5 13.92-2.87 29.06-16.78 33.56-2.87.82-6.14 1.64-9 1.23a27.32 27.32 0 0 1-24.56-18l-11.46-34.43-33.15 11.05c-2.87.82-6.14 1.64-9 1.23a27.32 27.32 0 0 1-24.56-18c-4.5-13.92 2.87-29.06 16.78-33.56l33.12-11.03-22.1-65.9-33.15 11.05c-2.87.82-6.14 1.64-9 1.23a27.32 27.32 0 0 1-24.56-18c-4.48-13.93 2.89-29.07 16.81-33.58l33.15-11.05-11.46-34.38c-4.5-13.92 2.87-29.06 16.78-33.56s29.06 2.87 33.56 16.78l11.46 34.38 68.36-22.92-11.46-34.38c-4.5-13.92 2.87-29.06 16.78-33.56s29.06 2.87 33.56 16.78l11.47 34.42 33.15-11.05c13.92-4.5 29.06 2.87 33.56 16.78s-2.87 29.06-16.78 33.56L329.7 194.6l22.1 65.9 33.15-11.05c13.92-4.5 29.06 2.87 33.56 16.78s-2.88 29.07-16.81 33.57z"/></svg>
             <small class="d-md-none ms-2">Slack</small>
         </a>
-        <a href="https://github.com/twbs" target="_blank" rel="noopener">
-            <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" class="navbar-nav-svg d-inline-block align-text-top" viewBox="0 0 512 499.36" role="img"><title>GitHub</title><path fill="currentColor" fill-rule="evenodd" d="M256 0C114.64 0 0 114.61 0 256c0 113.09 73.34 209 175.08 242.9 12.8 2.35 17.47-5.56 17.47-12.34 0-6.08-.22-22.18-.35-43.54-71.2 15.49-86.2-34.34-86.2-34.34-11.64-29.57-28.42-37.45-28.42-37.45-23.27-15.84 1.73-15.55 1.73-15.55 25.69 1.81 39.21 26.38 39.21 26.38 22.84 39.12 59.92 27.82 74.5 21.27 2.33-16.54 8.94-27.82 16.25-34.22-56.84-6.43-116.6-28.43-116.6-126.49 0-27.95 10-50.8 26.35-68.69-2.63-6.48-11.42-32.5 2.51-67.75 0 0 21.49-6.88 70.4 26.24a242.65 242.65 0 0 1 128.18 0c48.87-33.13 70.33-26.24 70.33-26.24 14 35.25 5.18 61.27 2.55 67.75 16.41 17.9 26.31 40.75 26.31 68.69 0 98.35-59.85 120-116.88 126.32 9.19 7.9 17.38 23.53 17.38 47.41 0 34.22-.31 61.83-.31 70.23 0 6.85 4.61 14.81 17.6 12.31C438.72 464.97 512 369.08 512 256.02 512 114.62 397.37 0 256 0z"/></svg>
+        <a href="https://github.com/GirlsCodeBootCamp/gcbc" target="_blank" rel="noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" class="navbar-nav-svg d-inline-block align-text-top" viewBox="0 0 512 499.36" role="img"><title>GitHub</title><path fill="currentColor" fill-rule="evenodd" d="M256 0C114.64 0 0 114.61 0 256c0 113.09 73.34 209 175.08 242.9 12.8 2.35 17.47-5.56 17.47-12.34 0-6.08-.22-22.18-.35-43.54-71.2 15.49-86.2-34.34-86.2-34.34-11.64-29.57-28.42-37.45-28.42-37.45-23.27-15.84 1.73-15.55 1.73-15.55 25.69 1.81 39.21 26.38 39.21 26.38 22.84 39.12 59.92 27.82 74.5 21.27 2.33-16.54 8.94-27.82 16.25-34.22-56.84-6.43-116.6-28.43-116.6-126.49 0-27.95 10-50.8 26.35-68.69-2.63-6.48-11.42-32.5 2.51-67.75 0 0 21.49-6.88 70.4 26.24a242.65 242.65 0 0 1 128.18 0c48.87-33.13 70.33-26.24 70.33-26.24 14 35.25 5.18 61.27 2.55 67.75 16.41 17.9 26.31 40.75 26.31 68.69 0 98.35-59.85 120-116.88 126.32 9.19 7.9 17.38 23.53 17.38 47.41 0 34.22-.31 61.83-.31 70.23 0 6.85 4.61 14.81 17.6 12.31C438.72 464.97 512 369.08 512 256.02 512 114.62 397.37 0 256 0z"/></svg>
             <small class="d-md-none ms-2">GitHub</small>
         </a>
       </div>
     </div>
   </div>
+<!-- /JOIN US -->
 
-
-<div class="container px-4 py-5">
-    <h2 class="pb-2 border-bottom"></h2>
-    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-      <div class="feature col">        
-        <h2>Who we are</h2>
-        <p>By joining our community you can get free access to our library of educational materials.</p>        
-      </div>
-      <div class="feature col">      
-        <h2>What we do</h2>
-        <p>Network, collaborate and find jobs with hundreds of women in Tech Industry.</p>        
-      </div>
-      <div class="feature col">        
-        <h2>Our Goals</h2>
-        <p>We work with volunteers and companies to give you a support in coding challenges.</p>        
-      </div>
-    </div>
-  </div>
-
+<!-- FOOTER -->
   <footer class="pt-4 my-md-5 pt-md-5 border-top">
     <div class="row">
       <div class="col-12 col-md">        
         <small class="d-block mb-3 text-muted">&copy; 2021</small>
       </div>
       <div class="col-6 col-md">
-        <!--<h5>Features</h5>
+        <!--<h5>Resources</h5>-->
         <ul class="list-unstyled text-small">
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
-        </ul>-->
-      </div>
-      <div class="col-6 col-md">
-        <!--<h5>Resources</h5>
-        <ul class="list-unstyled text-small">
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
-        </ul>-->
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resources</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Workshops</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Success Stories</a></li>          
+        </ul>
       </div>
       <div class="col-6 col-md">
         <!--<h5>About</h5>-->
-        <ul class="list-unstyled text-small">      
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">What We Do</a></li>
+        <ul class="list-unstyled text-small">                
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Networking</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Job Openings</a></li>
           <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Volunteer</a></li>
           <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">How you can help</a></li>
         </ul>
       </div>
+      <div class="col-6 col-md">
+        <!--<h5>Curriculum</h5>-->
+        <ul class="list-unstyled text-small">
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Topics</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Problems</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Behavioral</a></li>
+        </ul>
+      </div>      
     </div>
   </footer>
-  </div>
-</main>
+<!-- /FOOTER -->  
 
+</div>
+<!-- /CONTAINER -->
 
-    <script src="./js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-      
+    </main>        
   </body>
 </html>
