@@ -1,10 +1,16 @@
+.py-5 {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+
 .input_lg {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   border-radius: 0.3rem;
 }
 
-a.link-more {
+a.link-more,
+.nav a strong:hover {
   float: right;
   color: #222;
 }
@@ -12,7 +18,8 @@ a.link-more {
 a,
 .colored_text,
 a.link-secondary:hover,
-a.link-more:hover {
+a.link-more:hover,
+.nav a strong {
   color: #db8196;
 }
 a:hover {
@@ -25,6 +32,11 @@ a:hover {
 .suppl_text {
   color: gray;
   font-size: 0.85em;
+  font-weight: normal;
+}
+.suppl_text_small {
+  color: gray;
+  font-size: 0.75em;
   font-weight: normal;
 }
 
@@ -106,7 +118,8 @@ img {
   width: 100%;
 }
 
-.features-boxed p {
+.features-boxed p,
+.features-boxed ul {
   color: #7d8285;
 }
 
@@ -142,6 +155,22 @@ img {
 
 .features-boxed .item .description {
   font-size: 15px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 20px;
+}
+.text-center tr td {
+  padding-top: 20px;
+}
+
+.text_list {
+  text-align: left;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+.nav strong {
+  text-decoration: underline;
 }

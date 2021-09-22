@@ -52,20 +52,25 @@
 
 <!-- HEADER -->    
     <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-      <a href="#" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+      <a href="index.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
         <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
         <span class="fs-4">Career Bootcamp</span>
       </a>
 
-      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="#" class="nav-link px-2 link-dark">Get Involved</a></li>        
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">        
+        <li><a href="#" class="nav-link px-2 link-dark">Problems</a></li> 
+        <li><a href="#" class="nav-link px-2 link-dark">Resources</a></li>         
+        <li><a href="get_involved.html" class="nav-link px-2 link-dark"><strong>Get Involved/Volunteer</strong></a></li>        
         <li><a href="#faq" class="nav-link px-2 link-dark item underline js-scroll-item">FAQs</a></li>        
       </ul>
 
       <div class="col-md-3 text-end">
-        <button type="button" class="btn btn-outline-primary me-2">Login</button>
-        <button type="button" class="btn btn-primary">Sign-up</button>
+        <!--<button type="button" class="btn btn-outline-primary me-2">Login</button>-->
+        <button type="button" onclick="window.open('register.html','_blank');" class="btn btn-primary btn-lg px-4 me-md-2">&nbsp;&nbsp;&nbsp;Register&nbsp;&nbsp;&nbsp;</button>
       </div>
+
+
+
     </header>
 <!-- /HEADER -->    
 
@@ -80,9 +85,9 @@
           <p class="lead">
             <h5>Join our <span class="colored_text">FREE 10-week intensive program</span> that gives you the tools you need to get the job you want.</h5>
           Become a part of our welcoming, safe and supportive community where you can join smaller group chats to learn Algorithms and Data Structures and solve problems together.</p>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <input type="search" class="form-control input_lg" placeholder="Your email..." aria-label="Search">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Subscribe</button>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">            
+              <input type="search" class="form-control" placeholder="Your email..." aria-label="Search">
+              <button type="button" class="btn btn-primary px-4 me-md-2">Subscribe</button>            
             <!--
             <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>-->
           </div>
@@ -95,44 +100,74 @@
     <div class="table-responsive container col-xxl-8 px-4 py-5">
       <!--<h1 class="display-5 fw-bold lh-1 mb-3">Events</h1>-->
       <h2 class="display-6">Upcoming Events</h2>
-      <p>Become a member to see more details</p>
+      <p>For those who continue previous bootcamp/has experience ≠ beginner</p>
       <table class="table text-center">
         <thead>
           <tr>
             <th style="width: 34%;"></th>
             <th style="width: 22%;">Topic</th>
-            <th style="width: 22%;">Pro</th>
+            <th style="width: 22%;">Mid Level</th>
             <th style="width: 22%;"></th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th scope="row" class="text-start">Oct, 1<br /><span class="suppl_text">6:00PM &ndash; 7:30PM (PDT)</span></th>
+            <th scope="row" class="text-start">Oct, 12 (Tue)<br /><span class="suppl_text">6:00PM &ndash; 7:30PM (PDT)</span></th>
+            <td>Dynamic Programming &ndash; 1</td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td class="text-small"><a href="#">Add to Calendar</a></td></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">Oct, 19 (Tue)<br /><span class="suppl_text">6:00PM &ndash; 7:30PM (PDT)</span></th>
+            <td>Dynamic Programming &ndash; 2</td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td class="text-small"><a href="#">Add to Calendar</a></td></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">Oct, 26 (Tue)<br /><span class="suppl_text">6:00PM &ndash; 7:30PM (PDT)</span></th>
+            <td>Bit Manipulation</td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td class="text-small"><a href="#">Add to Calendar</a></td></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">Nov, 2 (Tue)<br /><span class="suppl_text">6:00PM &ndash; 7:30PM (PDT)</span></th>
+            <td>Sliding Window</td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td class="text-small"><a href="#">Add to Calendar</a></td></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">Nov, 9 (Tue)<br /><span class="suppl_text">6:00PM &ndash; 7:30PM (PDT)</span></th>
+            <td><strong>Workshop</strong></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td class="text-small"><a href="#">Add to Calendar</a></td></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">Nov, 16 (Tue)<br /><span class="suppl_text">6:00PM &ndash; 7:30PM (PDT)</span></th>
             <td>Linked Lists</td>
             <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td class="text-small">Add to Calendar</td>
+            <td class="text-small"><a href="#">Add to Calendar</a></td></td>
           </tr>
           <tr>
-            <th scope="row" class="text-start">Oct, 7th<br /><span class="suppl_text">6:00PM &ndash; 7:30PM (PDT)</span></th>
-            <td>Stack & Queue</td>
+            <th scope="row" class="text-start">Nov, 23 (Tue)<br /><span class="suppl_text">6:00PM &ndash; 7:30PM (PDT)</span></th>
+            <td>Binary Trees</td>
             <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td class="text-small">Add to Calendar</td>
+            <td class="text-small"><a href="#">Add to Calendar</a></td></td>
           </tr>
           <tr>
-            <th scope="row" class="text-start">Oct, 23rd<br /><span class="suppl_text">6:00PM &ndash; 7:30PM (PDT)</span></th>
-            <td>Recursion</td>
+            <th scope="row" class="text-start">Nov, 30 (Tue)<br /><span class="suppl_text">6:00PM &ndash; 7:30PM (PDT)</span></th>
+            <td>Graphs &ndash; 1</td>
             <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td class="text-small">Add to Calendar</td>
+            <td class="text-small"><a href="#">Add to Calendar</a></td></td>
           </tr>
           <tr>
-            <th scope="row" class="text-start">Oct, 31st<br /><span class="suppl_text">6:00PM &ndash; 7:30PM (PDT)</span></th>
-            <td>Heaps</td>
+            <th scope="row" class="text-start">Dec, 7 (Tue)<br /><span class="suppl_text">6:00PM &ndash; 7:30PM (PDT)</span></th>
+            <td>Graphs &ndash; 2</td>
             <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td class="text-small">Add to Calendar</td>
+            <td class="text-small"><a href="#">Add to Calendar</a></td></td>
           </tr>
         </tbody>
       </table>
-      <a href="#" class="link-more">More>></a>
+      <!-- <a href="#" class="link-more">More>></a>-->
     </div>
 <!-- /EVENTS -->
  
@@ -179,11 +214,15 @@
   <div class="features-boxed">   
     <div class="container">
     <div class="row justify-content-center features">
+
       <div class="col-sm-6 col-md-5 col-lg-4 item">
         <div class="box"><i class="fa fa-map-marker icon"></i>
-          <h3 class="name">Who we are</h3>
+          <h3 class="name">Who are we?</h3>
           <!--<p class="description">We are a community of woman who wants to change a career path or jump into a new field by preparing themselves for technical interview. We are learning together and improve through feedback.</p>-->
-          <p class="description">We are a community of women who want to change a career path, jump into a new field or stay fit by preparing themselves for technical interviews. We are learning together and supporting each other for success at interviews and careers in tech.</p>
+          <div class="description">
+            <p>We are a community of women who want to change a career path, jump into a new field or stay fit by preparing themselves for technical interviews.</p>
+            <p>We are learning together and supporting each other for success at interviews and careers in tech.</p>
+          </div>          
         </div>
       </div>
 
@@ -191,23 +230,26 @@
         <div class="box"><i class="fa fa-angle-double-right icon"></i>
           <h3 class="name">What will you learn?</h3>
           <!--<p class="description">We will start by ... and why ... is a must. We will then start working on some basic leetcode problems, we will move on to more advanced techniques to solve problems, will look for patterns, etc. At the end of the bootcamp, you will solve more then 100 leetcode problems, will know how to use github, and enough experience to start intervieving.</p>-->
-          <p class="description">We will start by solving many problems that's why initial programming skills are a must. We'll try to cover the most popular interview topics with attention to patterns and your ability to navigate between them. By the end of the bootcamp, we'll try to show how to solve 50-100 LeetCode problems, discuss your solutions in terms of time and space complexity, edge cases, and testing.
-            Preparing for an interview is a long and hard process, we'll try to simplify certain steps for you, but your efforts and ability to dedicate time will be also crucial .</p>
+          <div class="description">
+            <p>We will start by solving many problems that's why initial programming skills are a must.</p>
+            <p>We'll try to cover the most popular interview topics with attention to patterns and your ability to navigate between them.</p>
+            <p>By the end of the bootcamp, we'll show how to solve 50-100 LeetCode problems, discuss your solutions in terms of time and space complexity, edge cases, and testing.</p>
+            <p>Preparing for an interview is a long and hard process, we'll simplify certain steps for you, but your efforts and ability to dedicate time will be also crucial.</p>
+          </div>
         </div>
       </div> 
 
       <div class="col-sm-6 col-md-5 col-lg-4 item">
         <div class="box"><i class="fa fa-clock-o icon"></i>
           <h3 class="name">What are the prerequisites?</h3>
-          <!--<p class="description">All you need are Python basics like variables, arrays, loops and functions. We will learn the rest together.</p>-->
-          <p class="description">This time we are requiring some knowledge beyond arrays and loops -> Easy level problems since we are continuing
-            <ul>
-              <li>More or less confident programming in Python or any other language</li>
-              <li>Familiarity with Data Structures - there will be a test</li>
-              <li>Solving Easy Level problems - there will be a test</li>
-              <li>Ability and desire to spend 5-15 hours a week - solving problems, reading solutions and learning Python / another language, supporting other participants</li>
-            </ul>
-          </p>
+          <!--<p class="description">All you need are Python basics like variables, arrays, loops and functions. We will learn the rest together.</p>-->          
+          <ul class="text_list">            
+            <li>To be more or less confident programming in Python or any other language</li>
+            <li>To have knowledge beyond arrays and loops</li>
+            <li>To be familiar with Data Structures (there will be a test)</li>
+            <li>To solve easy level problems (there will be a test)</li>
+            <li>To have ability and desire to spend 5-15 hours a week (solving problems, reading solutions and learning Python / another language, supporting other participants)</li>
+          </ul>
         </div>
       </div> 
 
@@ -215,9 +257,10 @@
         <div class="box"><i class="fa fa-list-alt icon"></i>
           <h3 class="name">Our Goals</h3>
           <!-- <p class="description">We work with volunteers and companies to give you a support in coding challenges. By practicing with us you will be able to recognize patterns in interview problems. We will help with networking with hundreds of women in Tech Industry.</p>-->
-          <p class="description">Primary goals: learn solving problems to excel at Tech Interviews and build a supportive community
-            Secondary goals: support women in job search for a position in Tech and advancement of their careers
-          </p>
+          <div class="description">
+            <p><strong>Primary goals:</strong> learn solving problems to excel at Tech Interviews and build a supportive community.</p>
+            <p><strong>Secondary goals:</strong> support women in job search for a position in Tech and advancement of their careers.</p>
+          </div>
         </div>
       </div>
 
@@ -225,31 +268,30 @@
         <div class="box"><i class="fa fa-envelope icon"></i>
           <h3 class="name">What if I need help?</h3>
           <!--<p class="description">If you get stuck or you don't understand a specific part of a lesson, you can share your problem to get help.</p>-->
-          <p class="description">Being stuck at any level is a natural thing during the learning process. That's why we are together. Ways to get support:
-            <ul>
-            <li>Self-learning teams are teams of 4-6 women that meet up often and will become your source of immediate support</li>
-            <li>Slack channels on any topic from resume reviewing to asking about a solution for a specific LeetCode problem</li>
-            <li>Contact organizers directly with any questions, we'll try to answer with our experience or find the best contact for you</li>
+          <div class="description">
+            <p>Being stuck at any level is a natural thing during the learning process. That's why we are together. Ways to get support:</p>
+            <ul class="text_list">
+              <li><strong>Self-learning teams</strong> are teams of 4-6 women that meet up often and will become your source of immediate support.</li>
+              <li><strong>Slack channels</strong> on any topic from resume reviewing to asking about a solution for a specific LeetCode problem.</li>
+              <li><strong>Contact organizers</strong> directly with any questions. We'll try to answer with our experience or find the best contact for you.</li>
             </ul>
-          </p>
+          </div>
         </div>
       </div> 
       
       <div class="col-sm-6 col-md-5 col-lg-4 item">
         <div class="box"><i class="fa fa-clock-o icon"></i>
           <h3 class="name">Extras</h3>
-          <!--<p class="description">All you need are Python basics like variables, arrays, loops and functions. We will learn the rest together.</p>-->
-          <p class="description">
-            <ul>
+          <!--<p class="description">All you need are Python basics like variables, arrays, loops and functions. We will learn the rest together.</p>-->          
+          <ul class="text_list">
             <li>System Design</li>
             <li>Behavioral interview practice</li>
-            <li>Workshops about Github, Resume writing, etc</li>
+            <li>Workshops about Github, Resume writing, etc.</li>
             <li>Listen to success stories and other women's journeys in tech</li>
             <li>Projects to build a hands-on experience</li>
             <li>Networking events</li>
-            <li>And more</li>
-            </ul>
-          </p>
+            <li>...and more</li>
+          </ul>          
         </div>
       </div>           
     </div>
@@ -287,9 +329,7 @@
       </div>
       <div class="col-6 col-md">
         <!--<h5>Resources</h5>-->
-        <ul class="list-unstyled text-small">
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resources</a></li>
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Workshops</a></li>
+        <ul class="list-unstyled text-small">                    
           <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Success Stories</a></li>          
         </ul>
       </div>
@@ -297,17 +337,13 @@
         <!--<h5>About</h5>-->
         <ul class="list-unstyled text-small">                
           <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Networking</a></li>
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Job Openings</a></li>
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Volunteer</a></li>
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">How you can help</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Job Openings</a></li>          
         </ul>
       </div>
       <div class="col-6 col-md">
         <!--<h5>Curriculum</h5>-->
-        <ul class="list-unstyled text-small">
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Topics</a></li>
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Problems</a></li>
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Behavioral</a></li>
+        <ul class="list-unstyled text-small">          
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Behavioral Questions</a></li>
         </ul>
       </div>      
     </div>
