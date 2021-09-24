@@ -81,10 +81,22 @@ img {
 .mgb-20-all > * {
   margin-bottom: 20px;
 }
+
+.mgb-10,
+.mgb-10-all > * {
+  margin-bottom: 10px;
+}
+
 .wpx,
 .wpx-after:after {
   width: 70px;
 }
+
+.wpx_small,
+.wpx-after:after {
+  width: 40px;
+}
+
 .img-round,
 .img-rel-round {
   border-radius: 50%;

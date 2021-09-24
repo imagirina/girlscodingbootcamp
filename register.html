@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">    
-    <title>Register to Career Bootcamp</title>
+    <title>Get Involved</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./css/main.css" rel="stylesheet">
-    
+    <link href="./css/forms.css" rel="stylesheet">
+
     <!-- Icons in What we do-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Custom styles for this template -->
@@ -60,13 +61,14 @@
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">        
         <li><a href="#" class="nav-link px-2 link-dark">Problems</a></li> 
         <li><a href="#" class="nav-link px-2 link-dark">Resources</a></li>         
-        <li><a href="get_involved.html" class="nav-link px-2 link-dark"><strong>Get Involved/Volunteer</strong></a></li>        
-        <li><a href="#faq" class="nav-link px-2 link-dark item underline js-scroll-item">FAQs</a></li>        
+        <li><a href="get_involved.html" class="nav-link px-2 link-dark">Get Involved/Volunteer</a></li>        
+        <li><a href="index.html#faq" class="nav-link px-2 link-dark item underline js-scroll-item">FAQs</a></li>        
       </ul>
 
-      <div class="col-md-3 text-end">
-        <!--<button type="button" class="btn btn-outline-primary me-2">Login</button>-->
-        &nbsp;
+      
+      <div class="col-md-3 text-end">        
+          &nbsp;
+        <!--<button type="button" onclick="window.open('register.html','_blank');" class="btn btn-primary btn-lg px-4 me-md-2">&nbsp;&nbsp;&nbsp;Register&nbsp;&nbsp;&nbsp;</button>-->
       </div>
 
 
@@ -75,36 +77,209 @@
 <!-- /HEADER -->    
 
  
-<!-- TESTIMONIALS -->
+<!-- TITLE -->
   <div class="table-responsive container">
     <div class="auto-invert line-b-4 align-center">
         <h1 class="font-cond-b fg-text-d lts-md fs-300 fs-300-xs no-mg" contenteditable="false">Register</h1>        
-        <h5 class="font-cond-l fg-accent lts-md" contenteditable="false">Additional text here</h5>               
-    </div>
-    
+        <!--<h5 class="font-cond-l fg-accent lts-md" contenteditable="false">and help amazing women to prosper by joining our team as:</h5>-->               
+    </div>    
   </div>
-<!-- /TESTIMONIALS -->
+<!-- /TITLE -->
 
 </div> 
 <!-- /CONTAINER -->
   
-<!-- WHAT WE DO -->
-<section class="section features" id="faq">
 
+<section class="section features">
   <div class="features-boxed">   
     <div class="container">
-    <div class="row justify-content-center features">
-        FORM HERE
-        <br /><br />
+    <div class="row justify-content-center features">        
+<!-- STEPS -->
+<div class="table-responsive container py-5">    
+    <ul class="hash-list cols-3 cols-1-xs pad-30-all align-center text-sm">
+        <li>
+          <img src="img/avatar.png" class="wpx img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">          
+          <h5 class="font-cond mgb-5 fg-text-d fs-130" style="text-align: left;" contenteditable="false">&ndash; Step1 <span class="suppl_text_small">(text)</span></h5>          
+        </li>      
+
+        <li>
+          <img src="img/avatar.png" class="wpx img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+          <h5 class="font-cond mgb-5 fg-text-d fs-130" style="text-align: left;" contenteditable="false">&ndash; Step1 <span class="suppl_text_small">(text)</span></h5>          
+        </li>
+        <li>
+          <img src="img/avatar.png" class="wpx img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+          <h5 class="font-cond mgb-5 fg-text-d fs-130" style="text-align: left;" contenteditable="false">&ndash; Step1 <span class="suppl_text_small">(text)</span></h5>          
+        </li>
+    </ul>
+  </div>
+<!-- /STEPS -->
     </div>
   </div>
-
 </section>
-<!-- /WHAT WE DO -->
+<br/>
+<!-- TITLE -->
+<!--
+<div class="table-responsive container">
+    <div class="auto-invert line-b-4 align-center">        
+        <h5 class="font-cond-l fg-accent lts-md" contenteditable="false"><span class="colored_text">Please fill out this form if you’d like to volunteer:</span></h5>    
+    </div>  
+</div>
+-->
+<!-- /TITLE -->
+
+<!-- FORM -->
+<div class="table-responsive container">
+    <form class="needs-validation form_tmpl" novalidate>
+            <div class="form-row">
+              <div class="col-md-4_sm mb-3">
+                <label for="validationCustom01">First name *</label>
+                <input type="text" class="form-control" id="validationCustom01" placeholder="" value="" required>
+                <div class="valid-feedback">
+                  Looks good! 
+                </div>
+              </div>
+              <div class="col-md-4_sm mb-3">
+                <label for="validationCustom02">Last name *</label>
+                <input type="text" class="form-control" id="validationCustom02" placeholder="" value="" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>          
+            </div>            
+            <div class="form-row">
+                <div class="col-md-4 mb-3">
+                  <label for="validationCustom03">Email address *</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1"  aria-describedby="emailHelp" placeholder="" required>
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else</small>
+                  <!--<div class="invalid-feedback">
+                    Please provide a valid email.
+                  </div>-->
+                </div>
+            </div>   
+            <div class="form-row">               
+                <div class="col-md-4 mb-3">
+                    <label for="validationCustom06">City</label>
+                    <input type="text" class="form-control" id="validationCustom06" placeholder="" value="">
+                    <!--<div class="valid-feedback">
+                      Looks good!
+                    </div>-->
+                </div>       
+            </div>                                           
+            <div class="form-group">
+                <label for="form_register_stage_prep"><strong>At what stage in preparation for the interview are you in now:</strong></label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="form_register_stage_prep" id="form_register_stage_prep1" value="option1" checked>
+                    <label class="form-check-label" for="form_register_stage_prep1">
+                        Exploring, haven't started yet
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="form_register_stage_prep" id="form_register_stage_prep2" value="option2">
+                    <label class="form-check-label" for="form_register_stage_prep2">
+                        Can solve easy-level problems
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="form_register_stage_prep" id="form_register_stage_prep3" value="option3">
+                    <label class="form-check-label" for="form_register_stage_prep3">
+                        Can solve medium-level problems, but want to improve
+                    </label>
+                </div>                                
+                <div class="valid-feedback">
+                    Looks good!
+                </div>                        
+            </div>
+            <div class="form-group">
+                <label for="form_register_stage_search"><strong>At what stage of your job search are you in?</strong></label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="form_register_stage_search" id="form_register_stage_search1" value="option1" checked>
+                    <label class="form-check-label" for="form_register_stage_search1">
+                        Actively interviewing
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="form_register_stage_search" id="form_register_stage_search2" value="option2">
+                    <label class="form-check-label" for="form_register_stage_search2">
+                        Planning to start interviewing in 3-6 months
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="form_register_stage_search" id="form_register_stage_search3" value="option3">
+                    <label class="form-check-label" for="form_register_stage_search3">
+                        Not planning to start interviewing any time soon
+                    </label>
+                </div>                                
+                <div class="valid-feedback">
+                    Looks good!
+                </div>                        
+            </div>
+            <div class="form-group">
+                <label for="form_register_interes"><strong>You are interested in bootcamp for:</strong></label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="form_register_interes" id="form_register_interes1" value="option1" checked>
+                    <label class="form-check-label" for="form_register_interes1">
+                        Beginners (you know some basic Data Structures such as arrays, for-loops and if/else, but don't solve most of the Easy level problems yet)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="form_register_interes" id="form_register_interes2" value="option2">
+                    <label class="form-check-label" for="form_register_interes2">
+                        Intermediate level (you know all of the above and also can solve most of the Easy level problems and some Medium)
+                    </label>
+                </div>                                
+                <div class="valid-feedback">
+                    Looks good!
+                </div>                        
+            </div>
+            <div class="form-group">
+                <label for="form_register_support"><strong>Are you ready to participate in self-learning teams besides classes?</strong></label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="form_register_support" id="form_register_support1" value="option1">
+                    <label class="form-check-label" for="form_register_support1">
+                        Yes
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="form_register_support" id="form_register_support2" value="option2">
+                    <label class="form-check-label" for="form_register_support2">
+                        No
+                    </label>
+                </div>                                
+                <div class="valid-feedback">
+                    Looks good!
+                </div>                        
+            </div>                        
+            <div class="align-center">
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </div>
+            
+    </form>
+          
+          <script>
+          // Example starter JavaScript for disabling form submissions if there are invalid fields
+          (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+              // Fetch all the forms we want to apply custom Bootstrap validation styles to
+              var forms = document.getElementsByClassName('needs-validation');
+              // Loop over them and prevent submission
+              var validation = Array.prototype.filter.call(forms, function(form) {
+                form.addEventListener('submit', function(event) {
+                  if (form.checkValidity() === false) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                  }
+                  form.classList.add('was-validated');
+                }, false);
+              });
+            }, false);
+          })();
+          </script>
+</div>          
+<!-- /FORM -->
 
 <!-- CONTAINER -->
 <div class="container">
-
 
 <!-- FOOTER -->
   <footer class="pt-4 my-md-5 pt-md-5 border-top">
@@ -115,20 +290,21 @@
       <div class="col-6 col-md">
         <!--<h5>Resources</h5>-->
         <ul class="list-unstyled text-small">                    
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Success Stories</a></li>          
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Success Stories (soon)</a></li>          
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Behavioral Questions (soon)</a></li>
         </ul>
       </div>
       <div class="col-6 col-md">
         <!--<h5>About</h5>-->
         <ul class="list-unstyled text-small">                
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Networking</a></li>
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Job Openings</a></li>          
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Networking (soon)</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Job Openings (soon)</a></li>          
         </ul>
       </div>
       <div class="col-6 col-md">
         <!--<h5>Curriculum</h5>-->
         <ul class="list-unstyled text-small">          
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Behavioral Questions</a></li>
+          <li class="mb-1">Got questions? Contact us at: <a class="text-decoration-none" href="#">info@girlscodingbootcamp.com</a></li>          
         </ul>
       </div>      
     </div>
