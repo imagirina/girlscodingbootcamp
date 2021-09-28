@@ -1,5 +1,27 @@
+/* Logo */
+.fs-4 {
+  font-size: 1.4rem !important;
+}
+
+.logo .icon {
+  font-size: 26px;
+  color: #000;
+}
+
+/* Form */
+.btn-primary {
+  color: #fff;
+  background-color: #3cacae;
+  border-color: #3cacae;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #db8196;
+  border-color: #db8196;
+}
+
 .py-5 {
-  padding-top: 1.5rem !important;
+  padding-top: 0.3rem !important;
   padding-bottom: 1.5rem !important;
 }
 
@@ -19,15 +41,17 @@ a,
 .colored_text,
 a.link-secondary:hover,
 a.link-more:hover,
-.nav a strong {
+.nav a strong,
+.text-small a:hover {
   color: #db8196;
 }
-a:hover {
-  color: #d3a0af;
+a:hover,
+.text-small a {
+  color: #3cacae;
 }
-.text-small {
+.text-small,
+.mb-1 {
   font-size: 0.85em;
-  color: gray;
 }
 .suppl_text {
   color: gray;
@@ -72,7 +96,7 @@ a:hover {
 }
 .pad-30,
 .pad-30-all > * {
-  padding: 0 30px;
+  padding: 0 15px;
 }
 img {
   border: 0;
@@ -126,7 +150,7 @@ img {
 /* FAQ */
 .features-boxed {
   color: #313437;
-  background-color: #eef4f7;
+  background-color: #f4f4f4; /*eef4f7*/
   width: 100%;
 }
 
@@ -152,7 +176,7 @@ img {
 
 .features-boxed .item .icon {
   font-size: 60px;
-  color: #82d2ce;
+  color: #3cacae; /*7bd0e0*/
   margin-top: 20px;
   margin-bottom: 20px;
 }
