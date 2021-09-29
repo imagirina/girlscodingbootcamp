@@ -101,16 +101,16 @@
     <ul class="hash-list cols-3 cols-1-xs pad-30-all align-center text-sm">
         <li>
           <img src="img/avatar.png" class="wpx img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">          
-          <h5 class="font-cond mgb-5 fg-text-d fs-130" style="text-align: left;" contenteditable="false">&ndash; Step1 <span class="suppl_text_small">(text)</span></h5>          
+          <h5 class="font-cond mgb-5 fg-text-d fs-130 align-center" contenteditable="false">Fill the form below</h5>          
         </li>      
 
         <li>
           <img src="img/avatar.png" class="wpx img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
-          <h5 class="font-cond mgb-5 fg-text-d fs-130" style="text-align: left;" contenteditable="false">&ndash; Step1 <span class="suppl_text_small">(text)</span></h5>          
+          <h5 class="font-cond mgb-5 fg-text-d fs-130  align-center" contenteditable="false">Check your email<br /><span class="suppl_text_small">(the confirmation will be send to you along with the link to the test)</span></h5>          
         </li>
         <li>
           <img src="img/avatar.png" class="wpx img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
-          <h5 class="font-cond mgb-5 fg-text-d fs-130" style="text-align: left;" contenteditable="false">&ndash; Step1 <span class="suppl_text_small">(text)</span></h5>          
+          <h5 class="font-cond mgb-5 fg-text-d fs-130 align-center" contenteditable="false">Complete the Test</h5>          
         </li>
     </ul>
   </div>
@@ -131,18 +131,22 @@
 
 <!-- FORM -->
 <div class="table-responsive container">
-    <form class="needs-validation form_tmpl" novalidate>
+    <form         
+        class="needs-validation form_tmpl" 
+        novalidate
+        method="post"
+        action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfqNfpuNr9aYL2EApgUiTFG8usnTBsETwj-Kpu3bjwbICwoug/formResponse">
             <div class="form-row">
               <div class="col-md-4_sm mb-3">
                 <label for="validationCustom01">First name *</label>
-                <input type="text" class="form-control" id="validationCustom01" placeholder="" value="" required>
+                <input type="text" name="entry.2005620554" class="form-control" id="validationCustom01" placeholder="" value="" required>
                 <div class="valid-feedback">
                   Looks good! 
                 </div>
               </div>
               <div class="col-md-4_sm mb-3">
                 <label for="validationCustom02">Last name *</label>
-                <input type="text" class="form-control" id="validationCustom02" placeholder="" value="" required>
+                <input type="text" name="entry.53943582" class="form-control" id="validationCustom02" placeholder="" value="" required>
                 <div class="valid-feedback">
                   Looks good!
                 </div>
@@ -151,7 +155,7 @@
             <div class="form-row">
                 <div class="col-md-4 mb-3">
                   <label for="validationCustom03">Email address *</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1"  aria-describedby="emailHelp" placeholder="" required>
+                  <input type="email" name="entry.1045781291" class="form-control" id="exampleInputEmail1"  aria-describedby="emailHelp" placeholder="" required>
                   <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else</small>
                   <!--<div class="invalid-feedback">
                     Please provide a valid email.
@@ -161,7 +165,7 @@
             <div class="form-row">               
                 <div class="col-md-4 mb-3">
                     <label for="validationCustom06">Location</label>
-                    <input type="text" class="form-control" id="validationCustom06" placeholder="" value="">
+                    <input type="text" name="entry.1065046570" class="form-control" id="validationCustom06" placeholder="" value="">
                     <!--<div class="valid-feedback">
                       Looks good!
                     </div>-->
@@ -170,19 +174,19 @@
             <div class="form-group">
                 <label for="form_register_stage_prep"><strong>At what stage in preparation for the interview are you in now:</strong></label>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="form_register_stage_prep" id="form_register_stage_prep1" value="option1" checked>
+                    <input class="form-check-input" type="checkbox" name="entry.1166974658" id="form_register_stage_prep1" value="Exploring, haven't started yet">
                     <label class="form-check-label" for="form_register_stage_prep1">
                         Exploring, haven't started yet
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="form_register_stage_prep" id="form_register_stage_prep2" value="option2">
+                    <input class="form-check-input" type="checkbox" name="entry.1166974658" id="form_register_stage_prep2" value="Can solve easy-level problems">
                     <label class="form-check-label" for="form_register_stage_prep2">
                         Can solve easy-level problems
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="form_register_stage_prep" id="form_register_stage_prep3" value="option3">
+                    <input class="form-check-input" type="checkbox" name="entry.1166974658" id="form_register_stage_prep3" value="Can solve medium-level problems, but want to improve">
                     <label class="form-check-label" for="form_register_stage_prep3">
                         Can solve medium-level problems, but want to improve
                     </label>
@@ -194,19 +198,19 @@
             <div class="form-group">
                 <label for="form_register_stage_search"><strong>At what stage of your job search are you in?</strong></label>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="form_register_stage_search" id="form_register_stage_search1" value="option1" checked>
+                    <input class="form-check-input" type="checkbox" name="entry.839337160" id="form_register_stage_search1" value="Actively interviewing">
                     <label class="form-check-label" for="form_register_stage_search1">
                         Actively interviewing
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="form_register_stage_search" id="form_register_stage_search2" value="option2">
+                    <input class="form-check-input" type="checkbox" name="entry.839337160" id="form_register_stage_search2" value="Planning to start interviewing in 3-6 months">
                     <label class="form-check-label" for="form_register_stage_search2">
                         Planning to start interviewing in 3-6 months
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="form_register_stage_search" id="form_register_stage_search3" value="option3">
+                    <input class="form-check-input" type="checkbox" name="entry.839337160" id="form_register_stage_search3" value="Not planning to start interviewing any time soon">
                     <label class="form-check-label" for="form_register_stage_search3">
                         Not planning to start interviewing any time soon
                     </label>
@@ -218,13 +222,13 @@
             <div class="form-group">
                 <label for="form_register_interes"><strong>You are interested in bootcamp for:</strong></label>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="form_register_interes" id="form_register_interes1" value="option1" checked>
+                    <input class="form-check-input" type="checkbox" name="entry.186487172" id="form_register_interes1" value="Beginners (you know some basic Data Structures such as arrays, for-loops and if/else, but don't solve most of the Easy level problems yet)">
                     <label class="form-check-label" for="form_register_interes1">
                         Beginners (you know some basic Data Structures such as arrays, for-loops and if/else, but don't solve most of the Easy level problems yet)
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="form_register_interes" id="form_register_interes2" value="option2">
+                    <input class="form-check-input" type="checkbox" name="entry.186487172" id="form_register_interes2" value="Intermediate level (you know all of the above and also can solve most of the Easy level problems and some Medium)">
                     <label class="form-check-label" for="form_register_interes2">
                         Intermediate level (you know all of the above and also can solve most of the Easy level problems and some Medium)
                     </label>
@@ -236,13 +240,13 @@
             <div class="form-group">
                 <label for="form_register_support"><strong>Are you ready to participate in self-learning teams besides classes?</strong></label>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="form_register_support" id="form_register_support1" value="option1">
+                    <input class="form-check-input" type="radio" name="entry.491104223" id="form_register_support1" value="Yes" checked>
                     <label class="form-check-label" for="form_register_support1">
                         Yes
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="form_register_support" id="form_register_support2" value="option2">
+                    <input class="form-check-input" type="radio" name="entry.491104223" id="form_register_support2" value="No">
                     <label class="form-check-label" for="form_register_support2">
                         No
                     </label>
@@ -252,7 +256,7 @@
                 </div>                        
             </div>                        
             <div class="align-center">
-                <button class="btn btn-primary" type="submit">Submit</button>
+                <button class="btn btn-primary" type="submit" target="_blank">Submit</button>
             </div>
             
     </form>
@@ -266,13 +270,13 @@
               var forms = document.getElementsByClassName('needs-validation');
               // Loop over them and prevent submission
               var validation = Array.prototype.filter.call(forms, function(form) {
-                form.addEventListener('submit', function(event) {
-                  if (form.checkValidity() === false) {
-                    event.preventDefault();
-                    event.stopPropagation();
-                  }
-                  form.classList.add('was-validated');
-                }, false);
+                // form.addEventListener('submit', function(event) {
+                //   if (form.checkValidity() === false) {
+                //     event.preventDefault();
+                //     event.stopPropagation();
+                //   }
+                //   form.classList.add('was-validated');
+                // }, false);
               });
             }, false);
           })();
