@@ -9,12 +9,15 @@
 }
 
 /* Form */
-.btn-primary {
+.btn-primary,
+.btn-toolbar button:hover {
   color: #fff;
   background-color: #3cacae;
   border-color: #3cacae;
 }
-.btn-primary:hover {
+.btn-primary:hover,
+/*.links .btn-outline-secondary:hover,*/
+.links .btn-outline-active {
   color: #fff;
   background-color: #db8196;
   border-color: #db8196;
@@ -52,7 +55,8 @@ a.link-dark:hover {
 a,
 .colored_text,
 a.link-secondary:hover,
-a.link-more:hover {
+a.link-more:hover,
+.nav .nav-item a:hover {
   color: #db8196;
 }
 
@@ -133,6 +137,11 @@ img {
   margin-bottom: 10px;
 }
 
+.mgb-70,
+.mgb-70-all > * {
+  margin-bottom: 70px;
+}
+
 .wpx,
 .wpx-after:after {
   width: 70px;
@@ -179,7 +188,9 @@ img {
   background-color: #f4f4f4; /*eef4f7*/
   width: 100%;
 }
-
+.bg-light {
+  background-color: #f4f4f4; /*eef4f7*/
+}
 .features-boxed p,
 .features-boxed ul {
   color: #7d8285;
@@ -237,4 +248,95 @@ img {
 
 div.h-100.p-5 {
   padding: 1rem 0 3rem 0 !important;
+}
+
+.btn-toolbar button {
+  margin: 3px 6px 3px 0;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-md-9 {
+  margin-top: 15px;
+}
+
+ol li a {
+  color: #222;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+.col-md-9 p {
+  font-weight: bold;
+}
+.table-striped td a {
+  font-size: 0.9em;
+}
+
+.nav li.nav-item a {
+  color: #222;
+}
+
+.links button {
+  background-color: #f8f9fa;
+  border: 1px solid #f9f9f9;
+  color: #000;
+}
+
+.links button a {
+  color: #000;
+  text-decoration: none;
+}
+.links button a:hover,
+.links button:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.link_underline {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.links .btn-sm {
+  font-weight: bold;
+  text-align: left;
+}
+
+/*
+#fixed-menu {
+  position: fixed;
+  top: 20%;
+  z-index: 100;
+  border: 1px solid green;
+} */
+
+#fixed-menu li {
+  list-style-type: none;
+}
+ul.links#fixed-menu {
+  margin: 0;
+  padding: 0;
+}
+
+ul.links#fixed-menu a:hover {
+  text-decoration: none;
+  color: #fff;
 }
